@@ -7,8 +7,8 @@
 **Design doc:** [docs/DESIGN.md](./docs/DESIGN.md) — architecture, patterns, and why.
 
 
-**Parent system design:** [03 — Distributed Training & Job Orchestration](./03-distributed-training-orchestration.md)  
-**Also references:** [08 — Fine-tuning / eval data pipelines](./08-finetuning-eval-data-pipelines.md)
+**Parent system design:** [03 — Distributed Training & Job Orchestration](https://github.com/Debashis2007/scheduled-retrains/blob/main/03-distributed-training-orchestration.md)  
+**Also references:** [08 — Fine-tuning / eval data pipelines](https://github.com/Debashis2007/scheduled-retrains/blob/main/08-finetuning-eval-data-pipelines.md)
 
 ## Users & problem
 
@@ -30,7 +30,7 @@ Scheduler → resolve blessed dataset@version
   → launch train job (prod priority)
   → checkpoint → offline evals
   → promote artifact to registry (or stop)
-  → hand off to serving canary ([05](./05-model-monitoring-observability.md))
+  → hand off to serving canary ([05](https://github.com/Debashis2007/scheduled-retrains/blob/main/05-model-monitoring-observability.md))
 ```
 
 ## Specializations

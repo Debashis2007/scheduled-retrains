@@ -1,7 +1,7 @@
 # Design: Scheduled Retrains
 
 **Project:** `scheduled-retrains`  
-**Parent system design:** [03 — Distributed Training & Job Orchestration](../03-distributed-training-orchestration.md) · [08 — Fine-Tuning / Eval Data Pipelines](../08-finetuning-eval-data-pipelines.md)
+**Parent system design:** [03 — Distributed Training & Job Orchestration](https://github.com/Debashis2007/scheduled-retrains/blob/main/03-distributed-training-orchestration.md) · [08 — Fine-Tuning / Eval Data Pipelines](https://github.com/Debashis2007/scheduled-retrains/blob/main/08-finetuning-eval-data-pipelines.md)
 
 ## 1. What this POC demonstrates
 
