@@ -1,5 +1,7 @@
 # Use Case: Continual / Scheduled Retrains
 
+**YouTube walkthrough:** [Scheduled Retrains — System Design #Shorts](https://youtu.be/YTpfwU_l61s)
+
 **Design doc:** [docs/DESIGN.md](./docs/DESIGN.md) — architecture, patterns, and why.
 
 
@@ -48,6 +50,9 @@ Scheduler → resolve blessed dataset@version
 
 
 ## Design walkthrough (opens on GitHub)
+
+> **Watch on YouTube:** [Scheduled Retrains — System Design #Shorts](https://youtu.be/YTpfwU_l61s)
+
 
 ![Design overview](docs/video/design-overview.gif)
 
